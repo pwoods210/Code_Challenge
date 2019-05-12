@@ -20,7 +20,8 @@ began coding with Sublime in a standard folder instead of within a VisualStudio 
 wrestled with getting Unit Tests to work. I decided that the time commitment to get the Unit Test working
 was becoming expensive, and eventually settled with making a light tester class within the same file to confirm individual
 variable/method behavior. Another consequence of using C# was my ignorance of their RegEx class. I struggled with getting the 
-RegEx method I wanted to use (RegEx.Matches) to work properly, and so I had to settle with manipulating RegEx.Match.
+RegEx method I wanted to use (RegEx.Matches) to work properly, and so I had to settle with manipulating RegEx.Match. This 
+prevented me from coming up with a solution for input's of x an y that differ in digits (in a timely manner).
 
 ### Design Decisions
 
