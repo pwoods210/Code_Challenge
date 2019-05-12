@@ -32,7 +32,7 @@ namespace Rover_Sim
 
             while (counter < input.Length)
             {
-                // Initialize map with data from first line. y_prep is a gimmick variable that allows for 1-3 digit map sizes.
+                // Initialize map with data from the first line. y_prep is a gimmick variable that allows for 1-3 digit map sizes.
                 // y_prep checks the amount of digits in the x variable, starts the regex match at where the y should start.
                 if (counter == 0)
                 {
