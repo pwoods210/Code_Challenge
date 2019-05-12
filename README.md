@@ -46,12 +46,13 @@ not be allowed to move unless its returning back to the plateu. This required me
 
 ### Class Documents
 
-Simulator:<br/>
-  Main: <br/>
-  public static List<string> input_processor(string filename)<br/>
-    - Takes a string that specifies the file to read from, if the string is blank then read from Console.<br/>
-    - Returns a string list that holds each line of input<br/>
-  
+<pre>
+Simulator: 
+  Main: 
+  public static List<string> input_processor(string filename)
+    - Takes a string that specifies the file to read from, if the string is blank then read from Console.
+    - Returns a string list that holds each line of input
+ </pre>
  Rover: <br/>
   public Rover(int x, int y, int dir) <br/>
     - Constructor for Rover. Sets the 3 ints of Rover to the parameters. <br/>
